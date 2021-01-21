@@ -1,7 +1,7 @@
 # Maintainer: Aaron Fischer <mail@aaron-fischer.net>
 
 pkgname=dataexplorer
-pkgver=3.4.3
+pkgver=3.4.6
 pkgrel=2
 pkgdesc="Graphical tool to analyze data, gathered from various hardware devices."
 url="http://savannah.nongnu.org/projects/dataexplorer"
@@ -83,4 +83,3 @@ package() {
   chmod +x "$pkgdir/opt/DataExplorer/DataExplorer"
   chmod +x "$pkgdir/opt/DataExplorer/DevicePropertiesEditor"
 }
-
